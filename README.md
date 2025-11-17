@@ -19,17 +19,17 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 world-development-analysis/
 │
-├── README.md # Project documentation
-├── .gitignore # Ignore unnecessary files
+├── README.md            # Project documentation
+├── .gitignore           # Ignore unnecessary files
 │
 ├── data/
-│ ├── raw/ # Original CSV files from World Bank
+│ ├── raw/               # Original CSV files from World Bank
 │ │ └── WDI_Data.csv
-│ └── processed/ # Cleaned CSV files ready for analysis
-│ └── WDI_Data_Processed.csv
+│ └── processed/         # Cleaned CSV files ready for analysis
+│ │ └── WDI_Data_Processed.csv
 │
 └── notebooks/
-└── world_development_indicators_analysis.ipynb
+└── wdi_analysis.ipynb   # The main Jupyter notebook for analysis workflow.
 ```
 
 ---
@@ -120,3 +120,12 @@ Improvements in social indicators drive meaningful GDP growth.
 
 - World Bank Open Data: [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)  
 - Python libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+- Code generation and documentation supported by ChatGPT (OpenAI): https://chat.openai.com/
+- scikit-learn documentation: https://scikit-learn.org/stable/documentation.html
+- Kaggle datasets and notebooks: https://www.kaggle.com/datasets/theworldbank/world-development-indicators
+- Common inspiration/patterns from Stack Overflow: https://stackoverflow.com/
+
+## Additional Resources
+
+- Random Forest methodology based on Breiman, L. (2001), "Random Forests." Machine Learning, 45(1), 5-32.
+- Data cleaning and visualization best practices inspired by data science community resources and tutorials.
