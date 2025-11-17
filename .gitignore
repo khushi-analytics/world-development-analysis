@@ -1,4 +1,18 @@
-.ipynb_checkpoints
+# Byte-compiled / optimized / DLL files
 __pycache__/
-data/raw/
-data/external/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python virtual environment
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files (optional)
+data/processed/*.csv
